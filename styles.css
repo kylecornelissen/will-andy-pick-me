@@ -10,3 +10,80 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+body {
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 75%;
+  height: 500px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/* SECTION */
+section {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 50%;
+  float: left;
+  background-color: #E6ECF4;
+  padding: 2%;
+}
+
+fieldset {
+  display: flex;
+  align-self: center;
+  border-width: 0;
+  font-size: 1.5em;
+  padding: 5px;
+  width: 90%;
+}
+
+#question-input {
+  text-align: center;
+  border: none;
+  color: #2B4E80;
+  height: 35px;
+  width: 480px;
+  font-size: inherit;
+  padding: inherit;
+}
+
+#get-answer-btn {
+  color: white;
+  background-color: #607AA0;
+  height: 45px;
+  font-size: inherit;
+  width: 100%;
+  padding: inherit;
+  margin: 2% 0% 5%;
+}
+
+#eight-ball {
+  height: 175px;
+  justify-content: center;
+  align-self: center;
+  padding: 0% 0% 20%;
+}
+
+#clear-btn {
+  color: white;
+  font-size: 20px;
+  background-color: #D0CDCD;
+  align-self: flex-end;
+}
+
+/* ASIDE */
+#woody {
+  height: 492.72px;
+  margin-left: 10%;
+}
